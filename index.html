@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover full body workouts, strength training tips, and simple fitness routines with Form & Flow Fitness.">
+  <title>Full Body Workouts | Form & Flow Fitness</title>
+  <style>
+    :root {
+      --green: #426b55;
+      --cream: #f8f6f0;
+      --dark: #25342b;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    .notice {
+      background: #e7eee7;
+      padding: 12px 20px;
+      text-align: center;
+      font-size: 13px;
+    }
+    header {
+      background: var(--white);
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--green);
+    }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a {
+      color: var(--dark);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { color: var(--green); text-decoration: underline; }
+    .hero {
+      background: var(--green);
+      color: white;
+      padding: 85px 10%;
+      text-align: center;
+    }
+    h1 { font-size: 42px; line-height: 1.2; }
+    h2 { color: var(--green); font-size: 29px; }
+    .hero h2 { color: white; }
+    .hero p { max-width: 650px; margin: 20px auto; }
+    .button {
+      display: inline-block;
+      background: white;
+      color: var(--green);
+      padding: 12px 26px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    main { max-width: 1100px; margin: auto; padding: 45px 7%; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin: 30px 0;
+    }
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+    .card h3 { color: var(--green); }
+    .card a { color: var(--green); font-weight: bold; }
+    .highlight {
+      background: #e7eee7;
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: 35px;
+    }
+    footer {
+      background: var(--dark);
+      color: white;
+      padding: 35px 8%;
+      text-align: center;
+    }
+    footer a { color: white; }
+    footer .notice {
+      color: var(--dark);
+      margin-top: 20px;
+    }
+    @media (max-width: 700px) {
+      header { flex-direction: column; text-align: center; }
+      nav { justify-content: center; }
+      .cards { grid-template-columns: 1fr; }
+      h1 { font-size: 32px; }
+      .hero { padding: 55px 7%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="notice">
+  This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+</div>
+
+<header>
+  <div class="logo">FORM & FLOW</div>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="dumbbell.html">Dumbbell Workouts</a>
+    <a href="abs.html">Ab Workouts</a>
+    <a href="legs.html">Leg Workouts</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Stronger Every Day. Your Way.</h1>
+  <p>Welcome to Form & Flow Fitness, where building strength feels simple, approachable, and empowering. Discover workouts designed for real people and real schedules.</p>
+  <a href="#workouts" class="button">Explore Workouts</a>
+</section>
+
+<main>
+  <section>
+    <h2>Fitness That Fits Your Life</h2>
+    <p>At Form & Flow Fitness, we believe you don't need an expensive gym membership or hours of free time to build a stronger body. Whether you're starting your fitness journey or looking to refresh your routine, our workouts help you move with purpose.</p>
+    <p>Founded by fictional fitness coach Avery Collins, Form & Flow was created to make strength training more accessible. Our philosophy is simple: focus on consistency, learn proper technique, and celebrate progress at every stage.</p>
+  </section>
+
+  <section id="workouts">
+    <h2>Find Your Next Workout</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Dumbbell Workouts</h3>
+        <p>Build full-body strength with a pair of dumbbells. These efficient routines target major muscle groups without complicated equipment.</p>
+        <a href="dumbbell.html">Explore Dumbbell Workouts &rarr;</a>
+      </article>
+      <article class="card">
+        <h3>Ab Workouts</h3>
+        <p>Strengthen your core, improve stability, and develop better body control with exercises designed for all fitness levels.</p>
+        <a href="abs.html">Explore Ab Workouts &rarr;</a>
+      </article>
+      <article class="card">
+        <h3>Leg Workouts</h3>
+        <p>Train your quads, hamstrings, glutes, and calves with lower-body workouts that build strength from the ground up.</p>
+        <a href="legs.html">Explore Leg Workouts &rarr;</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="highlight">
+    <h2>Why Full Body Training?</h2>
+    <p>Full body workouts train multiple major muscle groups in one session, making them an efficient choice for busy schedules. By combining upper-body, lower-body, and core movements, you can develop balanced strength while keeping your routine manageable.</p>
+    <p>Our recommendation for beginners is to start with two or three strength sessions per week, allowing recovery between challenging workouts.</p>
+  </section>
+
+  <section>
+    <h2>Meet Your Coach</h2>
+    <p>Avery Collins is the fictional founder and head coach of Form & Flow Fitness. With a passion for practical strength training, Avery designs workouts around approachable movements, flexible schedules, and long-term consistency.</p>
+    <p>"Fitness should add confidence to your life, not stress to your calendar." — Avery Collins</p>
+  </section>
+</main>
+
+<footer>
+  <p><strong>FORM & FLOW FITNESS</strong></p>
+  <p>Move with purpose. Grow with confidence.</p>
+  <p>
+    <a href="index.html">Home</a> |
+    <a href="dumbbell.html">Dumbbells</a> |
+    <a href="abs.html">Abs</a> |
+    <a href="legs.html">Legs</a>
+  </p>
+  <div class="notice">
+    This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+  </div>
+</footer>
+
+</body>
+</html>
