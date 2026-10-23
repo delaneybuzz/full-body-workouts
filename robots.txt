@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://delaneybuzz.github.io/full-body-workouts/sitemap.xml
