@@ -32,7 +32,7 @@ The instructions will remain identical in every trial. Only the assigned homepag
 The primary outcome will be whether the AI visitor answers YES or NO to exploring the workouts. I will record YES as 1 and NO as 0 and calculate the percentage of YES responses for each version.
 
 ### 6. Sample Size and Timeline
-I will run 100 trials total, with 50 trials for each version. I will commit this plan on November 9, launch testing by November 17, and complete all trials by November 24, 2026. I will not stop early based on the results.
+I will run 20 trials total. I will commit this plan on November 9, launch testing and complete all trials by November 17. I will not stop early based on the results.
 
 ### 7. Analysis
 I will compare the percentage of YES responses in Version A and Version B and calculate the difference in percentage points. I predict Version B will have a higher YES percentage. I will also use a two-proportion statistical test to evaluate whether the observed difference could be due to chance, using a 0.05 significance threshold. Results will be reported whether or not they support my hypothesis.
